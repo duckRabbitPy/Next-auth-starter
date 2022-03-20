@@ -1,0 +1,27 @@
+{
+  "name": "next-auth-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "cypress open"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookies": "^0.8.0",
+    "next": "12.1.0",
+    "pg": "^8.7.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.6",
+    "cypress": "^9.5.0",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
