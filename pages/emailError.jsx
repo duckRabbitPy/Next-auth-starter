@@ -5,7 +5,7 @@ export default function Rewards() {
   return (
     <div>
       <h1>
-        Sign up error, there amy be an account already registered with this
+        Sign up error, there may be an account already registered with this
         email!🚨
       </h1>
       <Link href={"/signup"}>
